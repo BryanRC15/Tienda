@@ -1,0 +1,37 @@
+
+h2{
+    background-color: green;
+    color: white;
+}
+#encabezado{
+    background-color: black;
+    color: #00cc00;
+    text-align: center
+
+}
+.articulo{
+    background-color: bisque;
+    font-family: sans-serif;
+    color: black;
+
+}
+*{
+    font-family: fantasy;
+    background-color: whitesmoke;
+}
+p span{
+    color: blue;
+}
+
+a.hover{
+ background-color: red;   
+}
+body{
+    background-image: url('../img/cannon.jpg');
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+a{
+    background-color: blue;
+    color: yellow;
+}
