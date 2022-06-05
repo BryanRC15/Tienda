@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <title>TechShop</title>
+        <meta charset="UTF-8">
+        <meta name="descripción" content="Página principal de la tienda TechShop">
+        <meta name="Keywords" content="HTML5, CSS, JS, TechShop">
+        <link href="CSS/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header>
+            <h1 id="encabezado">TechShop</h1>
+        </header>
+        <nav>
+            <a href="ejemplo6.html">Back</a> | <a href="index.html">Home</a> | <a href="ejemplo2.html">Next</a>
+        </nav>
+
+        <section>
+            <h2>Formulario</h2>
+            <article>
+                <header><h3>Tipos de inputs</h3></header>
+                <hr>
+
+                <form action="confirmacion.jsp" method="POST">
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+                        <label>Botón</label>
+                        <input type="button" name ="botón1" value ="Confirmar"/>
+                        <br/>
+                        <label>Sus generos preferidos</label>
+                        <input type="checkbox" name=" acción">Acción
+                        <input type="checkbox" name=" comedia">Comedia
+                        <input type="checkbox" name=" romance">Romance
+                        <input type="checkbox" name=" indie">Indie
+                        <br/>
+                        <label>Seleccione el fondo de pantalla</label>
+                        <input type="color" name="color">
+                        <br/>
+                        <label>Fecha de ingreso</label>
+                        <input type="date" name="fechaIngre" required="">
+                        <br/>
+                        <label>Hora de nacimiento</label>
+                        <input type="datetime-local" name="fechaNaci"/>
+                        <br/>
+                    </fieldset>
+                    <label>Fotografia</label>
+                    <input type="file" name="foto"/>
+                    <br/>
+                    <label>Correo electronico</label>
+                    <input type="email" name="correo" placeholder="sucorreo@xxxx.xxx"/>
+                    <br/>
+                    <label>este código no se ve</label>
+                    <input type="hidden" name="idProducto" value="DFK2N"/>
+                    <br/>
+                    <label>Estatura</label>
+                    <input type="number"
+                           name="estatura"
+                           min="100" max="240"
+                           value="170"/>
+                    <br/>
+                    <label>Correo electronico</label>
+                    <input type="password" name="clave"/>
+                    <br/>
+                    <label>horario</label>
+                    <input type="radio" name="horario" value="M"/> Mañana
+                    <input type="radio" name="horario" value="T"/> Tarde
+                    <input type="radio" name="horario" value="N"/> Noche
+                    <br/>
+                    <label>Eliminar todo</label>
+                    <input type="reset" name="Borrar todo"/>
+                    <br/>
+                    <label>Buscar</label>
+                    <input type="search" name="buscar" placeholder="Buscar..."/>
+                    <br/>
+                    <label>Enviar</label>
+                    <input type="submit" name="Enviar"/>
+                    <br/>
+                    <label>Celular</label>
+                    <input type="tel" name="Celular" placeholder="9999-9999"/>
+                    <br/>
+                    <label>Texto</label>
+                    <input type="text" name="Texto" required="true"/>
+                    <br/>
+
+
+
+                </form>    
+            </article>
+        </section>
+        <hr>
+        <footer>
+            <p>Sitio desarrollado en el curso web y patrones 2022 &COPY;</p>
+        </footer>
+
+
+
+    </body>
+</html>
